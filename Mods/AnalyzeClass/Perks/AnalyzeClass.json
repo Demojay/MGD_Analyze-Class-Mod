@@ -1,0 +1,14 @@
+{
+    "name": "Analyze",
+    "description": "Test to assign Analyzing functionality",
+
+    "LevelReq": "0",
+    "PerkReq": [ ""],
+    "StatReq": [ ""],
+    "StatReqAmount": [ "0"],
+
+    "PerkType": [ "Class"],
+    "EffectPower": [ "Analyze"],
+
+    "PlayerCanPurchase": "No"
+}
