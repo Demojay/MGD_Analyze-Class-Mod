@@ -1,6 +1,6 @@
 {
     "name": "Analyze",
-    "description": "Test to assign Analyzing functionality",
+    "description": "Combat API Mod: Grants the Analyze Class, that auto-analyzes monsters that have been previously scanned.",
 
     "LevelReq": "0",
     "PerkReq": [ ""],

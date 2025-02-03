@@ -1,0 +1,33 @@
+{
+  "name": "Pray to the Goddess Statue.",
+  "Addition": "Yes",
+  "Speakers": [],
+  "EventText": [
+      {
+          "NameOfScene": "PrayingMenuActual",
+          "theScene": [
+            "MenuAddition",
+            "HideOptionOnRequirementFail", "RequiresPerk", "Analyze", "MOD: Remove Analyze Class",
+            "HideOptionOnRequirementFail", "InverseRequirement", "RequiresPerk", "Analyze", "MOD: Add Analyze Class",
+            "OverrideOption", "FinalOption", "Stop praying.",
+            "EndLoop"
+          ]
+      },
+      {
+          "NameOfScene": "MOD: Remove Analyze Class",
+          "theScene": [
+            "RemovePerkQuietly", "Analyze",
+            "Monsters will no longer have their status revealed if perviously analyzed with this class equipped.",
+            "JumpToScene", "PrayingMenu"
+          ]
+      },
+      {
+          "NameOfScene": "MOD: Add Analyze Class",
+          "theScene": [
+            "GivePerkQuietly", "Analyze",
+            "Monsters will now have their status revealed if perviously analyzed with this class equipped.",
+            "JumpToScene", "PrayingMenu"
+          ]
+      }
+  ]
+}

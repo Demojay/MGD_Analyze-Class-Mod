@@ -3,6 +3,7 @@
 game/*
 !game/gamecode
 game/gamecode/*
+!game/gamecode/afterLoad.rpy
 
 !game/gamecode/characterCore
 game/gamecode/characterCore/*
@@ -12,6 +13,7 @@ game/gamecode/characterCore/*
 !game/gamecode/characterCore/stats.rpy
 
 !game/gamecode/combatAPIMod
+!game/gamecode/analyzeMod
 
 !game/gamecode/combatcode
 
@@ -51,7 +53,7 @@ game/Json/Perks/*
 !game/script.rpy
 
 /lib
-/Mods
+/Mods/*
 /renpy
 
 .markdownlint.json
@@ -79,8 +81,6 @@ game/gamecode/characterCore/monster.rpy
 game/gamecode/characterCore/player.rpy
 game/gamecode/characterCore/statFloorAndCaps.rpy
 game/gamecode/characterCore/stats.rpy
-game/gamecode/combatAPIMod/combatAPI_UI.rpy
-game/gamecode/combatAPIMod/combatAPIMod_ren.py
 game/gamecode/combatAPIMod/sources/renpy/__init__.pyi
 game/gamecode/combatAPIMod/sources/renpy/store.pyi
 game/gamecode/combatcode/combat.rpy
@@ -100,3 +100,8 @@ game/gamecode/screens/on_charactermenu.rpy
 game/gui/CombatAPIMod/SpiritFillMod_x2.png
 game/gui/CombatAPIMod/SpiritFillMod_x2Buffer.png
 game/Json/Perks/_LevelUpModPerkOrder.json
+!/Mods/AnalyzeClass
+
+game/gamecode/afterLoad.rpy
+game/gamecode/combatAPIMod/combatAPI_UI.rpy
+game/gamecode/combatAPIMod/combatAPIMod_ren.py

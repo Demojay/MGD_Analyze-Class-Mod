@@ -1,0 +1,14 @@
+{
+    "name": "NoAutoAnalyze",
+    "description": "Prevents the monster from being auto analyzed by the Analyze Class Mod when entering battle",
+
+    "LevelReq": "0",
+    "PerkReq": [ ""],
+    "StatReq": [ ""],
+    "StatReqAmount": [ "0"],
+
+    "PerkType": [ "NoAutoAnalyze"],
+    "EffectPower": [ "0"],
+
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}
