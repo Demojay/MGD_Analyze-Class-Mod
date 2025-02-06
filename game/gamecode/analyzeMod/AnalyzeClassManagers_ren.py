@@ -27,7 +27,7 @@ class AnalyzeTargetClassManager(AnalyzeClassManager):
     CL_TYPE = "Target"
 
     
-    def _canBeAutoAnalysed(char: Monster) -> bool:
+    def _canBeAutoAnalysed(self, char: Monster) -> bool:
         """
         Internal function to see whether the given Monster has the "NoAutoAnalyze" perkType in their perks, meaning their status won't be automatically revealed
         :param char: Holder of this instance
