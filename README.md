@@ -1,4 +1,4 @@
-# Monster Girl Dreams - Auto - Analyze Code Mod
+# Monster Girl Dreams - Auto Analyze Code Mod
 
 ## Overview
 This Mod allows the player to automatically see the stats of monsters that they have already analyzed before. This built upon NobodyWhoBlinds's [Combat API](https://gitgud.io/NobodyWhoBlinds/monster-girl-dreams-combat-api), which is needed to be installed first in order for this mod to work.
